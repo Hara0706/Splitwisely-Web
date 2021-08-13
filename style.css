@@ -1,0 +1,292 @@
+*
+{
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Rubik', sans-serif;
+}
+
+.banner
+{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(245, 240, 240), rgb(226, 223, 223));
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar
+{
+    margin: 0px auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(124, 207, 101, 0.65), rgba(40, 180, 22, 0.65))
+}
+
+.navbar p
+{
+    font-size: 40px;
+    font-weight: 650;
+    margin: 5px;
+    color:rgb(214, 211, 211);
+}
+.navbar p span
+{
+    color: rgb(2, 109, 2);
+}
+
+.navbar ul
+{
+    flex: 1;
+    text-align: right;
+}
+
+.navbar ul li
+{
+    display: inline-block;
+    list-style: none;
+    margin: 0 35px;
+}
+
+.navbar ul li button
+{
+    
+    padding: 7px 25px;
+    margin: 7px;
+    outline: none;
+    border: 0.5px solid green;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(#5ce450, #0c5e04);
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+.navbar ul li button:hover
+{
+    background: linear-gradient(#53c049, #257c1d);
+}
+
+.ban
+{
+    display: flex;
+    margin-top: 80px;
+}
+
+.leftcol, .rightcol
+{
+    flex-basis: 50%;
+}
+
+.leftcol h1
+{
+    font-size: 40px;
+    margin: 0 80px;
+    color: rgb(4, 139, 4);
+}
+
+.leftcol h3
+{
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 10px;
+    color:rgb(136, 133, 133);
+}
+
+.pix
+{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.pix img
+{
+    padding: 20px;
+}
+
+.leftcol button
+{
+    padding: 15px 25px;
+    margin-left: 80px;
+    margin-top: 15px;
+    outline: none;
+    border: 0.5px solid green;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(#5ce450, #0c5e04);
+    font-size: 17px;
+    font-weight: bold;
+}
+.leftcol button:hover
+{
+    background: linear-gradient(#53c049, #257c1d);
+}
+
+.rightcol .pic
+{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.picbtn button
+{
+    padding: 15px 25px;
+    margin-left: 650px;
+    margin-top: 25px;
+    outline: none;
+    border: 0.5px solid green;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(#9a65e0, #360663);
+    font-size: 17px;
+    font-weight: bold;
+}
+.picbtn button:hover
+{
+    background: linear-gradient(#7d44c7, #2d0950);
+}
+
+
+.procore
+{
+    margin-top: 80px;
+}
+.procore h1
+{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(4, 139, 4);
+}
+
+.col {
+    float: left;
+    width: 33.33%;
+    margin-top: 40px;
+    
+  }
+
+  .col ul li
+  {
+      list-style: none;
+      margin-top: 20px;
+      padding-top: 5px;
+      font-size: 20px;
+      font-weight: bold;
+      color: rgb(110, 108, 108);
+  }
+  
+  .features:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row
+  {
+      display: flex;
+      margin-top:40px;
+      margin-left: 25px;
+      
+  }
+
+  .col1, .col2
+  {
+      flex-basis: 50%;
+      box-shadow: 1px 2px 25px rgba(92, 85, 85, 0.26);  
+  }
+
+
+  .rows {
+    box-sizing: border-box;
+  }
+  
+  
+  
+  
+  .column {
+    float: left;
+    width: 30%;
+    margin: 10px;
+    padding: 0 10px;
+  }
+  
+ 
+  .rows
+   {
+       margin-left: 22px;
+       margin-top: 20px;
+   }
+  
+ 
+  .rows:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(9, 46, 11, 0.2); 
+    padding: 16px;
+    text-align: left;
+    font-size: 20px;
+    color:rgba(1, 36, 1, 0.65);
+    background: linear-gradient(rgb(153, 212, 151), rgb(98, 187, 96));
+    cursor: pointer;
+  }
+  .card:hover
+  {
+    box-shadow: 0 4px 8px 0 rgb(248, 248, 248); 
+    background: linear-gradient(rgb(175, 221, 173), rgb(87, 219, 85));
+  }
+
+  .contact
+  {
+      display: flex;
+      margin-top: 80px;
+      margin-left: 25px;
+      
+   }
+
+  .left, .right
+  {
+      flex-basis: 50%;
+       
+  }
+
+  .left
+  {
+      display: flex;
+      margin-left: -5px;
+      
+  }
+  .left h2
+  {
+      margin-left: 25px;
+      padding-left: 100px;
+      color: rgb(39, 38, 38);
+  }
+  .left ul
+  {
+      margin-left: 130px;
+      margin-top: 10px;
+      list-style: none;
+      color: rgb(39, 38, 38);
+
+  }
+
+  .right h2
+  {
+      margin-left: 25px;
+      color: rgb(39, 38, 38);
+  }
+  .right img
+  {
+      margin: 20px;
+      cursor: pointer;
+  }
+
+
